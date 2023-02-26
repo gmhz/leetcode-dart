@@ -1,24 +1,48 @@
 import 'package:test/test.dart';
 
-import 'palindrome_number.dart';
+import 'longest_palindrome.dart';
 
 void main() {
-  test('isPalindrome 1', () {
+  test('longestPalindrome 1', () {
     expect(
-      isPalindrome(51115),
-      equals(true),
+      longestPalindrome("3ab12333215bcbb4a1"),
+      equals('1233321'),
     );
   });
-  test('isPalindrome 2', () {
+  test('longestPalindrome 2', () {
     expect(
-      isPalindrome(1123),
-      equals(false),
+      longestPalindrome("adbdyccxbcbda"),
+      equals('dbd'),
     );
   });
-  test('isPalindrome 3', () {
+  test('longestPalindrome 3', () {
     expect(
-      isPalindrome(1000000001),
-      equals(true),
+      longestPalindrome("abbcbba"),
+      equals('abbcbba'),
+    );
+  });
+  test('longestPalindrome 4', () {
+    expect(
+      longestPalindrome("abb"),
+      equals('bb'),
+    );
+  });
+  test('longestPalindrome 5', () {
+    expect(
+      longestPalindrome("ccd"),
+      equals('cc'),
+    );
+  });
+  test('longestPalindrome 5', () {
+    expect(
+      longestPalindrome("aaaa"),
+      equals('aaaa'),
+    );
+  });
+  test('longestPalindrome 5', () {
+    expect(
+      longestPalindrome("aaaaa"),
+      equals('aaaaa'),
     );
   });
 }

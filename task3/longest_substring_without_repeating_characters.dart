@@ -1,4 +1,4 @@
-int lengthOfLongestSubstring(String s) {
+int lengthOfLongestSubstringWithoutRepeatingCharacters(String s) {
   int l = s.length;
   int longest = 0, i = 0, j = 0;
 

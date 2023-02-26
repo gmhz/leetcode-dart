@@ -5,37 +5,37 @@ import 'longest_substring_without_repeating_characters.dart';
 void main() {
   test('longest_substring_without_repeating_characters', () {
     expect(
-      lengthOfLongestSubstring("abcabcbb"),
+      lengthOfLongestSubstringWithoutRepeatingCharacters("abcabcbb"),
       equals(3),
     );
   });
   test('longest_substring_without_repeating_characters space', () {
     expect(
-      lengthOfLongestSubstring(" "),
+      lengthOfLongestSubstringWithoutRepeatingCharacters(" "),
       equals(1),
     );
   });
   test('longest_substring_without_repeating_characters 2', () {
     expect(
-      lengthOfLongestSubstring("ekir7eyfaonshgbsawuFwgeoivhjwlebhlaeirubalwiuevhwilauehvlbwa"),
+      lengthOfLongestSubstringWithoutRepeatingCharacters("ekir7eyfaonshgbsawuFwgeoivhjwlebhlaeirubalwiuevhwilauehvlbwa"),
       equals(14),
     );
   });
   test('longest_substring_without_repeating_characters 3', () {
     expect(
-      lengthOfLongestSubstring("pwwkew"),
+      lengthOfLongestSubstringWithoutRepeatingCharacters("pwwkew"),
       equals(3),
     );
   });
   test('longest_substring_without_repeating_characters 5', () {
     expect(
-      lengthOfLongestSubstring("dvdf"),
+      lengthOfLongestSubstringWithoutRepeatingCharacters("dvdf"),
       equals(3),
     );
   });
   test('longest_substring_without_repeating_characters 6', () {
     expect(
-      lengthOfLongestSubstring("ohvhjdml"),
+      lengthOfLongestSubstringWithoutRepeatingCharacters("ohvhjdml"),
       equals(6),
     );
   });
